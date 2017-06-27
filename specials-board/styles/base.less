@@ -1,0 +1,209 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
+// for a full listing of what's available.
+// @import "ui-variables";
+@import "colors";
+
+.atom-text-editor, atom-text-editor {
+    background-color: @background;
+    color: @font;
+
+    .invisible-character,
+    .indent-guide {
+        color: @invisible;
+    }
+
+    .gutter {
+        background-color: @background;
+
+        .line-number {
+            opacity: 0.4;
+        }
+    }
+
+    .gutter .line-number.folded,
+    .gutter .line-number:after,
+    .fold-marker:after {
+        color: @magenta;
+    }
+
+    .cursor {
+        border-color: @font;
+    }
+
+    .cursor-line {
+        background-color: @current-line;
+    }
+
+    .selection .region {
+        background-color: @selection;
+        color: @font;
+    }
+
+    .line-number.cursor-line-no-selection {
+        background-color: @current-line;
+    }
+}
+
+.bracket-matcher .region {
+    background-color: @current-line;
+    opacity: 0.7;
+}
+
+.syntax--comment {
+    color: @comment;
+    font-style: italic;
+}
+
+.syntax--entity {
+    color: @entity;
+}
+
+.syntax--keyword {
+    color: @keyword;
+
+    &.syntax--operator {
+        &.syntax--js {
+            color: @font;
+        }
+
+        &.syntax--assignment {
+            color: @font;
+        }
+
+        &.syntax--comparison {
+            color: @font;
+        }
+    }
+}
+
+.syntax--storage.syntax--type {
+    color: @keyword;
+}
+
+.syntax--js {
+    &.syntax--storage {
+        color: @keyword;
+    }
+
+    &.syntax--class {
+        color: @keyword;
+    }
+}
+
+.syntax--constant {
+    color: @constant;
+
+    &.syntax--numeric {
+        color: @numeric-constant;
+    }
+}
+
+.syntax--variable {
+    color: @variable;
+}
+
+.syntax--delimiter, .syntax--brace {
+    color: @font;
+}
+
+.syntax--delimiter.syntax--period {
+    color: @font;
+}
+
+.syntax--invalid.syntax--deprecated {
+    text-decoration: underline;
+    color: @red;
+}
+
+.syntax--invalid.syntax--syntax--illegal {
+    color: @red;
+}
+
+.syntax--string {
+    color: @string;
+
+    .syntax--constant.syntax--character.syntax--escape {
+        color: @string;
+    }
+
+    &.syntax--regexp {
+        color: @regexp;
+        font-style: italic;
+
+        .syntax--source.syntax--ruby.syntax--embedded,
+        .syntax--string.syntax--regexp.syntax--arbitrary-repitition {
+            color: @regexp;
+        }
+    }
+}
+
+.syntax--entity {
+    &.syntax--html {
+        color: @html-tag;
+    }
+}
+
+.syntax--html {
+    &.syntax--punctuation {
+        &.syntax--definition {
+            &.syntax--tag {
+                color: @html-tag;
+            }
+
+            &.syntax--string {
+                color: @string;
+            }
+        }
+    }
+
+    &.syntax--attribute-name {
+        color: @html-attr;
+    }
+}
+
+.syntax--php {
+    &.syntax--storage {
+        &.syntax--modifier {
+            color: @keyword;
+        }
+    }
+}
+
+.syntax--css {
+    &.syntax--property-name {
+        color: @keyword;
+    }
+
+    &.syntax--name,
+    &.syntax--attribute-name {
+        color: @font;
+    }
+
+    &.syntax--unit {
+        color: @numeric-constant;
+    }
+
+    &.syntax--punctuation {
+        color: @font;
+
+        &.syntax--comment {
+            color: @comment;
+        }
+
+        &.syntax--string {
+            color: @string;
+        }
+    }
+
+    &.syntax--constant {
+        color: @numeric-constant;
+    }
+}
+
+.syntax--function {
+    &.syntax--builtin {
+        color: @constant;
+    }
+}

@@ -1,0 +1,61 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/kb/f9x0qvb15r95mwtzy58kwr6h0000gn/T/d-117128-35845-1dh8egj/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/kb/f9x0qvb15r95mwtzy58kwr6h0000gn/T/d-117128-35845-1dh8egj/package.tgz",
+        "spec": "/private/var/folders/kb/f9x0qvb15r95mwtzy58kwr6h0000gn/T/d-117128-35845-1dh8egj/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/kb/f9x0qvb15r95mwtzy58kwr6h0000gn/T/apm-install-dir-117128-35845-ncgi7f"
+    ]
+  ],
+  "_from": "../d-117128-35845-1dh8egj/package.tgz",
+  "_id": "specials-board@0.9.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/specials-board",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/kb/f9x0qvb15r95mwtzy58kwr6h0000gn/T/d-117128-35845-1dh8egj/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/kb/f9x0qvb15r95mwtzy58kwr6h0000gn/T/d-117128-35845-1dh8egj/package.tgz",
+    "spec": "/private/var/folders/kb/f9x0qvb15r95mwtzy58kwr6h0000gn/T/d-117128-35845-1dh8egj/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117128-35845-1dh8egj/package.tgz",
+  "_shasum": "966f0cf554543e6c71ac4a507278551c5c397081",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/kb/f9x0qvb15r95mwtzy58kwr6h0000gn/T/d-117128-35845-1dh8egj/package.tgz",
+  "_where": "/private/var/folders/kb/f9x0qvb15r95mwtzy58kwr6h0000gn/T/apm-install-dir-117128-35845-ncgi7f",
+  "bugs": {
+    "url": "https://github.com/mikelentini/Specials-Board/issues"
+  },
+  "dependencies": {},
+  "description": "This is a dark theme based on the Coda 2 theme, 'Specials Board'.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/mikelentini/Specials-Board#readme",
+  "license": "MIT",
+  "name": "specials-board",
+  "optionalDependencies": {},
+  "private": false,
+  "readme": "This is an Atom theme based on the Coda 2 theme, 'Specials Board'.\n\n![](http://f.cl.ly/items/0b2R073s3e04261Z0120/Screen%20Shot%202014-02-27%20at%203.14.25%20PM.png)\n\n![](http://f.cl.ly/items/3z2e3g0s211W1n2K0j1s/Screen%20Shot%202014-02-27%20at%203.14.32%20PM.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikelentini/Specials-Board.git"
+  },
+  "theme": "syntax",
+  "version": "0.9.0"
+}
